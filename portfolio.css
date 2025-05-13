@@ -1,17 +1,19 @@
  body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
  }
  
  
  header{
     background-color: #209ca7;
     color: #f2f2f2;
-    padding: 20px;
+    padding: 5%;
     text-align: center;
 }
 
+
 nav ul{
+    
     list-style: none;
     margin: 0;
     padding: 0;
@@ -35,6 +37,33 @@ nav ul li a:hover{
     background-color: #666;
 }
 
+#fotoPerfil{
+    border-radius: 100%;
+    float: left;
+    margin-top: 10px;
+    border: 5px solid #333;
+
+}
+
+
 h1, p {
     margin-top: 20px;
+    text-align: left;
+    position: relative;
+    left: 2% ;
 }
+
+#sobre{
+    text-align: center;
+}
+
+footer{
+    background-color: #209ca7;
+    color: #f2f2f2;
+    padding: 5%;
+    text-align: left;
+
+}
+
+
+
